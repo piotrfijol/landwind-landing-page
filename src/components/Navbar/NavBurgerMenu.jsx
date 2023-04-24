@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const NavBurgerMenu = ({onToggle, className}) => {
+export const NavBurgerMenu = ({onToggle, className = ""}) => {
   return (
     <div onClick={onToggle} className={`${className} block p-2 rounded-md lg:hidden hover:cursor-pointer hover:bg-gray-100`}>
         <svg height="32" width="32" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg">

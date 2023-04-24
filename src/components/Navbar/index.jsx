@@ -15,7 +15,7 @@ export const Navbar = () => {
                 <span className="font-semibold text-2xl">Landwind</span>
             </div>
             <div className="nav-links order-2 lg:order-1">
-                <NavBurgerMenu onToggle={() => setVisible(!visible)} className="" isCollapsed={false}/>
+                <NavBurgerMenu onToggle={() => setVisible(!visible)} isCollapsed={false}/>
                 <NavMenu isVisible={visible}>
                     <NavLink href="#">Company</NavLink>
                     <NavLink href="#">Marketplace</NavLink>
