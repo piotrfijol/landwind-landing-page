@@ -14,7 +14,7 @@ export const Hero = () => {
                 <Button className="py-3 px-5 text-base font-medium bg-white text-black border border-gray-200">Pricing & FAQ</Button>
             </div>
         </div>
-        <div className="hidden md:block">
+        <div className="hidden md:block flex-1 lg:flex-none">
             <img src={HeroImage}/>
         </div>
     </div>
