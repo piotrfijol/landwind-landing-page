@@ -9,7 +9,7 @@ import { Brand } from '../Brand/brand';
 
 export const Brands = () => {
   return (
-    <div className="container mx-auto grid gap-y-6 grid-cols-2 md:grid-cols-3 xl:grid-cols-6 mb-24 w-full">
+    <div className="container mx-auto grid items-center gap-x-16 gap-y-6 lg:flex lg:justify-between grid-cols-2 md:grid-cols-3 xl:grid-cols-6 mb-24 w-full">
         <Brand>
             <img src={Google} alt="" srcset="" />
         </Brand>
