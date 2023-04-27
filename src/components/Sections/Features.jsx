@@ -12,7 +12,7 @@ export const Features = () => {
     <div className="bg-gray-50 py-24">
 
       {/* First row  */}
-      <div className="flex container mx-auto items-center mb-20 gap-x-16">
+      <div className="container mx-auto flex items-center mb-20 gap-x-16">
         <div className="md:flex-1">
           <div class="mb-8">
                 <Subheader>
@@ -31,7 +31,7 @@ export const Features = () => {
           <Subtext className="mt-6 leading-normal">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.</Subtext>
         </div>
 
-        <div className="hidden md:block p-2.5 flex-1 h-full">
+        <div className="hidden md:block p-2.5 pr-0 flex-1 h-full">
           <img src={FirstRowImage} alt="" />
         </div>
       </div>
@@ -40,7 +40,7 @@ export const Features = () => {
       
     <div className="flex container mx-auto items-center gap-x-16">
 
-        <div className="hidden md:block p-2.5 flex-1 h-full">
+        <div className="hidden md:block box-border pl-0 flex-1 h-full">
           <img src={SecondRowImage} alt="" />
         </div>
 
