@@ -1,8 +1,8 @@
 import React from 'react'
 
-export const StatCard = ({ children }) => {
+export const StatCard = ({ className, children }) => {
   return (
-    <div className="text-base">
+    <div className={`${className} text-base`}>
         { children }
     </div>
   )
