@@ -10,7 +10,7 @@ import { StatCard } from '../StatCard';
 export const SocialProof = () => {
   return (
     <div className="bg-white py-24">
-        <div className="container mx-auto flex gap-x-24">
+        <div className="container mx-auto flex flex-col lg:flex-row gap-y-24 gap-x-24">
             
             {/* Left content */}
             <div className="py-5">
@@ -26,18 +26,18 @@ export const SocialProof = () => {
 
             {/* Right content */}
             <div className="flex flex-col gap-y-9">
-                <div className="flex gap-x-9">
+                <div className="flex flex-col md:flex-row gap-8 text-center md:text-left">
 
-                    <StatCard>
-                        <StatCard.Icon>
+                    <StatCard className="flex-1">
+                        <StatCard.Icon className="max-md:mx-auto">
                             <img src={ServersIcon} />
                         </StatCard.Icon>
                         <StatCard.Title>99.99% uptime</StatCard.Title>
                         <StatCard.Description>for Flowbite, with zero maintenance downtime</StatCard.Description>
                     </StatCard>
 
-                    <StatCard>
-                        <StatCard.Icon>
+                    <StatCard className="flex-1">
+                        <StatCard.Icon className="max-md:mx-auto">
                             <img src={PeopleIcon} />
                         </StatCard.Icon>
                         <StatCard.Title>600M+ Users</StatCard.Title>
@@ -46,18 +46,18 @@ export const SocialProof = () => {
 
                 </div>    
 
-                <div className="flex gap-8">
+                <div className="flex flex-col md:flex-row gap-8 text-center md:text-left">
 
-                    <StatCard>
-                        <StatCard.Icon>
+                    <StatCard className="flex-1">
+                        <StatCard.Icon className="max-md:mx-auto">
                             <img src={CartIcon} />
                         </StatCard.Icon>
                         <StatCard.Title>Millions</StatCard.Title>
                         <StatCard.Description>of transactions per day</StatCard.Description>
                     </StatCard>
 
-                    <StatCard>
-                        <StatCard.Icon>
+                    <StatCard className="flex-1">
+                        <StatCard.Icon className="max-md:mx-auto">
                             <img src={GlobeIcon} />
                         </StatCard.Icon>
                         <StatCard.Title>100+ countries</StatCard.Title>
