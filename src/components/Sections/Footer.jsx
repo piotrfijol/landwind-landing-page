@@ -4,6 +4,7 @@ import { Github } from "../icons/Github";
 import { Facebook } from "../icons/Facebook";
 import { Dribbble } from "../icons/Dribbble";
 import { Twitter } from "../icons/Twitter";
+import Logo from '@assets/images/logo.svg';
 
 export const Footer = () => {
   return (
@@ -106,7 +107,7 @@ export const Footer = () => {
 
                     <FBFooter.Brand
                         href="#"
-                        src="/logo.svg"
+                        src={Logo}
                         alt="Landwind Logo"
                         name="Landwind"
                     />

@@ -3,6 +3,7 @@ import { NavBurgerMenu } from "./NavBurgerMenu";
 import { NavLink } from './NavLink';
 import { NavMenu } from './NavMenu';
 import { Button } from '../Button';
+import Logo from '@assets/images/logo.svg';
 
 export const Navbar = () => {
     const [visible, setVisible] = useState(false);
@@ -11,7 +12,7 @@ export const Navbar = () => {
     <nav className="py-6 px-3 relative">
         <div className="container-padded flex w-full items-center justify-center gap-8 mx-auto">
             <div className="flex items-center gap-x-3 order-first">
-                <img className="block" src="/logo.svg" alt="" />
+                <img className="block" src={Logo} alt="" />
                 <span className="font-semibold text-2xl">Landwind</span>
             </div>
             <div className="nav-links order-2 lg:order-1">
