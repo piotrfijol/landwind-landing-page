@@ -10,7 +10,7 @@ import { StatCard } from '../StatCard';
 export const SocialProof = () => {
   return (
     <div className="bg-white py-24">
-        <div className="container mx-auto flex flex-col lg:flex-row gap-y-24 gap-x-24">
+        <div className="container-padded mx-auto flex flex-col lg:flex-row gap-y-24 gap-x-24">
             
             {/* Left content */}
             <div className="py-5">

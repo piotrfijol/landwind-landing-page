@@ -9,7 +9,7 @@ export const Navbar = () => {
 
   return (
     <nav className="py-6 px-3 relative">
-        <div className="container flex w-full items-center justify-center gap-8 mx-auto">
+        <div className="container-padded flex w-full items-center justify-center gap-8 mx-auto">
             <div className="flex items-center gap-x-3 order-first">
                 <img className="block" src="/logo.svg" alt="" />
                 <span className="font-semibold text-2xl">Landwind</span>

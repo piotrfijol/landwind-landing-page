@@ -5,7 +5,7 @@ import AvatarImage from "@assets/images/avatar.png";
 export const Testimonials = () => {
   return (
     <div className="bg-gray-50 py-24">
-        <div className="container mx-auto flex flex-col items-center gap-y-6">
+        <div className="container-padded mx-auto flex flex-col items-center gap-y-6">
             <img src={ QuoteIcon } className="w-12"/>
             <blockquote>
                 <p className="max-w-3xl text-center leading-relaxed text-2xl font-semibold">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>

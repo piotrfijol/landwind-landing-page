@@ -11,7 +11,7 @@ export const Features = () => {
     <div className="bg-gray-50 py-24">
 
       {/* First row  */}
-      <div className="container mx-auto flex items-center mb-20 gap-x-16">
+      <div className="container-padded mx-auto flex items-center mb-20 gap-x-16">
         <div className="md:flex-1">
           <div className="mb-8">
                 <Subheader>
@@ -37,7 +37,7 @@ export const Features = () => {
 
     {/* Second row */}
       
-    <div className="flex container mx-auto items-center gap-x-16">
+    <div className="flex container-padded mx-auto items-center gap-x-16">
 
         <div className="hidden md:block box-border pl-0 flex-1 h-full">
           <img src={SecondRowImage} alt="" />
