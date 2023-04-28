@@ -15,7 +15,7 @@ export const Hero = () => {
             </div>
         </div>
         <div className="hidden md:block flex-1 lg:flex-none">
-            <img src={HeroImage}/>
+            <img src={HeroImage} alt="Marketing strategy"/>
         </div>
     </div>
   )

@@ -11,22 +11,22 @@ export const Brands = () => {
   return (
     <div className="container mx-auto grid items-center gap-x-16 gap-y-6 lg:flex lg:justify-between grid-cols-2 md:grid-cols-3 xl:grid-cols-6 mb-24 w-full">
         <Brand>
-            <img src={Google} alt="" srcset="" />
+            <img src={Google} alt="Google logo" />
         </Brand>
         <Brand>
-            <img src={Microsoft} alt="" />
+            <img src={Microsoft} alt="Microsoft logo" />
         </Brand>           
         <Brand>
-            <img src={Spotify} alt="" />
+            <img src={Spotify} alt="Spotify logo" />
         </Brand>             
         <Brand>
-            <img src={Mailchimp} alt="" />
+            <img src={Mailchimp} alt="Mailchimp logo" />
         </Brand>        
         <Brand>
-            <img src={Airbnb} alt="" />
+            <img src={Airbnb} alt="Airbnb logo" />
         </Brand>        
         <Brand>
-            <img src={Uber} alt="" />
+            <img src={Uber} alt="Uber logo" />
         </Brand>  
     </div>
   )
