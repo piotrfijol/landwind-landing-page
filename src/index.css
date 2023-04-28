@@ -5,3 +5,8 @@
 body {
     @apply font-sans text-gray-900;
 }
+
+.container-padded {
+    @apply container;
+    padding: 0 1rem;
+}
