@@ -3,8 +3,7 @@ import { Subtext } from "@components/Subtext";
 import { Subheader } from "@components/Subheader";
 import FirstRowImage from "@assets/images/features_1.png";
 import SecondRowImage from "@assets/images/features_2.png";
-import { List } from '@components/List/List';
-import { ListItem } from '@components/List/ListItem';
+import { List } from '@components/List';
 import checkmarkIcon from "@assets/images/Checkmark.svg";
 
 export const Features = () => {
@@ -14,19 +13,19 @@ export const Features = () => {
       {/* First row  */}
       <div className="container mx-auto flex items-center mb-20 gap-x-16">
         <div className="md:flex-1">
-          <div class="mb-8">
+          <div className="mb-8">
                 <Subheader>
                   Work with tools you already use
                 </Subheader>
                 <Subtext className="mt-4">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.Accelerate critical development work, eliminate toil, and deploy changes with ease.</Subtext>
           </div>
           <List
-            className="pt-8 border-t border-gray-200 pl-6" 
+            className="pt-8 border-t border-gray-200" 
             bulletpoint={checkmarkIcon}
           >
-            <ListItem>Continuous integration and deployment</ListItem>
-            <ListItem>Development workflow</ListItem>
-            <ListItem>Knowledge management</ListItem>
+            <List.Item>Continuous integration and deployment</List.Item>
+            <List.Item>Development workflow</List.Item>
+            <List.Item>Knowledge management</List.Item>
           </List>
           <Subtext className="mt-6 leading-normal">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.</Subtext>
         </div>
@@ -45,21 +44,21 @@ export const Features = () => {
         </div>
 
         <div className="md:flex-1">
-          <div class="mb-8">
+          <div className="mb-8">
                 <Subheader>
                   We invest in the world’s potential
                 </Subheader>
                 <Subtext className="mt-4">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.Accelerate critical development work, eliminate toil, and deploy changes with ease.</Subtext>
           </div>
           <List
-            className="pt-8 border-t border-gray-200 pl-6" 
+            className="pt-8 border-t border-gray-200" 
             bulletpoint={checkmarkIcon}
           >
-            <ListItem>Dynamic reports and dashboards</ListItem>
-            <ListItem>Templates for everyone</ListItem>
-            <ListItem>Development workflow</ListItem>
-            <ListItem>Limitless business automation</ListItem>
-            <ListItem>Knowledge management</ListItem>
+            <List.Item>Dynamic reports and dashboards</List.Item>
+            <List.Item>Templates for everyone</List.Item>
+            <List.Item>Development workflow</List.Item>
+            <List.Item>Limitless business automation</List.Item>
+            <List.Item>Knowledge management</List.Item>
           </List>
         </div>
       </div>
