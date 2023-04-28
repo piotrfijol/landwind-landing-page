@@ -4,6 +4,7 @@ import { Brands } from "./components/Sections/Brands";
 import { Features } from "./components/Sections/Features";
 import { SocialProof } from "./components/Sections/SocialProof";
 import { Testimonials } from "./components/Sections/Testimonials";
+import { Pricing } from "./components/Sections/Pricing";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Features />
       <SocialProof />
       <Testimonials />
+      <Pricing />
     </>
   )
 }
