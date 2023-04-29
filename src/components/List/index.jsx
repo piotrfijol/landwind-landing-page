@@ -4,19 +4,20 @@ import { ListItem } from './ListItem'
 const List = ({bulletpoint, className = "", children}) => {
   return (
     <ul className={className}>
-      {
+      { 
         bulletpoint ? (
         React.Children.map(children, (child) => {
           
-          if(child.type.name === "ListItem") {
+          if(child.type === List.Item) {
             return React.cloneElement(child, {
               bulletpoint,
               ...child.props
             })
           }
         }))
-        : children
-      }
+        : children 
+        }
+      
     </ul>
   )
 }
