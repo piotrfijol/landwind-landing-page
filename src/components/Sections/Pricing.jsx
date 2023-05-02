@@ -1,5 +1,5 @@
 import React from 'react';
-import { Subheader } from "../Subheader";
+import { SectionHeader } from "../SectionHeader";
 import { Subtext } from "../Subtext";
 import Checkmark from "@assets/images/Checkmark_2.svg";
 import { List } from "../List";
@@ -7,10 +7,10 @@ import { PricingCard } from '../PricingCard';
 
 export const Pricing = () => {
   return (
-    <div className="bg-white py-24">
+    <section className="bg-white py-24">
       <div className="container-padded flex flex-col items-center gap-y-12 mx-auto">
           <div className="text-center max-w-3xl">
-              <Subheader className="mb-4">Pay as you grow</Subheader>
+              <SectionHeader className="mb-4">Pay as you grow</SectionHeader>
               <Subtext>Here at flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</Subtext>
           </div>
           <div className="flex flex-col gap-10 lg:flex-row justify-center">
@@ -68,6 +68,6 @@ export const Pricing = () => {
             
         </div>
       </div>
-    </div>
+    </section>
   )
 }

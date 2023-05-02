@@ -4,7 +4,7 @@ import AvatarImage from "@assets/images/avatar.png";
 
 export const Testimonials = () => {
   return (
-    <div className="bg-gray-50 py-24">
+    <section className="bg-gray-50 py-24">
         <div className="container-padded mx-auto flex flex-col items-center gap-y-6">
             <img src={ QuoteIcon } className="w-12"/>
             <blockquote>
@@ -19,6 +19,6 @@ export const Testimonials = () => {
                 </div>
             </blockquote>
         </div>
-    </div>
+    </section>
   )
 }

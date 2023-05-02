@@ -5,9 +5,9 @@ import { Card } from "flowbite-react";
 export const PricingCard = ({className = "", plan, description, cost, costPer, benefits}) => {
   return (
     <Card className={`${className} p-2 text-center max-w-sm lg:max-w-none`}>
-      <h2 className='text-2xl font-semibold'>
+      <h3 className='text-2xl font-semibold'>
         {plan}
-      </h2>
+      </h3>
       <Subtext className="!text-lg pb-4">{description}</Subtext>
       <div className="mx-auto mb-4 flex items-baseline text-gray-900 dark:text-white">
         <span className="text-5xl font-extrabold tracking-tight">

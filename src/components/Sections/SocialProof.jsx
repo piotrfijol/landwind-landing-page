@@ -1,5 +1,5 @@
 import React from 'react'
-import { Subheader } from "../Subheader";
+import { SectionHeader } from "../SectionHeader";
 import { Subtext } from "../Subtext";
 import CartIcon from "@assets/images/stat/cart.svg";
 import GlobeIcon from "@assets/images/stat/globe.svg";
@@ -9,13 +9,13 @@ import { StatCard } from '../StatCard';
 
 export const SocialProof = () => {
   return (
-    <div className="bg-white py-24">
+    <section className="bg-white py-24">
         <div className="container-padded mx-auto flex flex-col lg:flex-row gap-y-24 gap-x-24">
             
             {/* Left content */}
             <div className="py-5">
                 <span className="leading-none text-lg font-medium text-purple-600">Trusted Worldwide</span>
-                <Subheader className="mb-4 mt-3">Trusted by over 600 million users and 10,000 teams</Subheader>
+                <SectionHeader className="mb-4 mt-3">Trusted by over 600 million users and 10,000 teams</SectionHeader>
                 <Subtext>Our rigorous security and compliance standards are at the heart of all we do. We work tirelessly to protect you and your customers.</Subtext>
 
                 <div className="pt-6 mt-6 border-t border-gray-200">
@@ -68,6 +68,6 @@ export const SocialProof = () => {
                 
             </div>
         </div>
-    </div>
+    </section>
   )
 }

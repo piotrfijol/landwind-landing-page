@@ -9,7 +9,7 @@ import { Brand } from '../Brand/brand';
 
 export const Brands = () => {
   return (
-    <div className="container-padded mx-auto grid items-center gap-x-16 gap-y-6 lg:flex lg:justify-between grid-cols-2 md:grid-cols-3 xl:grid-cols-6 mb-24 w-full">
+    <section className="container-padded mx-auto grid items-center gap-x-16 gap-y-6 lg:flex lg:justify-between grid-cols-2 md:grid-cols-3 xl:grid-cols-6 mb-24 w-full" aria-label="sponsors">
         <Brand>
             <img src={Google} alt="Google logo" />
         </Brand>
@@ -28,6 +28,6 @@ export const Brands = () => {
         <Brand>
             <img src={Uber} alt="Uber logo" />
         </Brand>  
-    </div>
+    </section>
   )
 }

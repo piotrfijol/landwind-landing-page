@@ -9,13 +9,13 @@ export const Navbar = () => {
     const [visible, setVisible] = useState(false);
 
   return (
-    <nav className="py-6 px-3 relative">
+    <header className="py-6 px-3 relative">
         <div className="container-padded flex w-full items-center justify-center gap-8 mx-auto">
-            <div className="flex items-center gap-x-3 order-first">
-                <img className="block" src={Logo} alt="" />
-                <span className="font-semibold text-2xl">Landwind</span>
-            </div>
-            <div className="nav-links order-2 lg:order-1">
+            <a className="font-semibold text-2xl flex items-center gap-x-3 order-first">
+                <img className="block" src={Logo} alt="logo" />
+                Landwind
+            </a>
+            <nav className="nav-links order-2 lg:order-1">
                 <NavBurgerMenu onToggle={() => setVisible(!visible)} isCollapsed={false}/>
                 <NavMenu isVisible={visible}>
                     <NavLink href="#">Company</NavLink>
@@ -24,13 +24,13 @@ export const Navbar = () => {
                     <NavLink href="#">Team</NavLink>
                     <NavLink href="#">Contact</NavLink>
                 </NavMenu>
-            </div>
+            </nav>
             <div className="ml-auto order-1 lg:order-2">
                 <a className="font-semibold text-sm" href="#">Log In</a>
                 
                 <Button className="ml-3 px-3 py-2 text-sm leading-normal bg-violet-600 hover:bg-violet-800 text-white">Get started</Button>
             </div>
         </div>
-    </nav>
+    </header>
   )
 }
