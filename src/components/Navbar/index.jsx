@@ -23,12 +23,14 @@ export const Navbar = () => {
                     <NavLink href="#">Features</NavLink>
                     <NavLink href="#">Team</NavLink>
                     <NavLink href="#">Contact</NavLink>
+                    <NavLink className="block sm:hidden" href="#">Log in</NavLink>
+                    <NavLink className="block sm:hidden" href="#">Get started</NavLink>
                 </NavMenu>
             </nav>
             <div className="ml-auto order-1 lg:order-2">
-                <a className="font-semibold text-sm" href="#">Log In</a>
+                <a className="font-semibold text-sm  hidden sm:inline" href="#">Log In</a>
                 
-                <Button className="ml-3 px-3 py-2 text-sm leading-normal bg-violet-600 hover:bg-violet-800 text-white">Get started</Button>
+                <Button className="ml-3 px-3 py-2 text-sm leading-normal bg-violet-600 hover:bg-violet-800 text-white hidden sm:inline">Get started</Button>
             </div>
         </div>
     </header>
