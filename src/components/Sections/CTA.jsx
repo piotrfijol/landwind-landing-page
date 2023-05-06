@@ -12,7 +12,7 @@ export const CTA = () => {
             </header>
             <Subtext>Try Flowbite Platform for 30 days. No credit card required.</Subtext>
             <div>
-                <Button className="py-3 px-5 text-base font-medium bg-violet-600 hover:bg-violet-800 text-white">Free trial for 30 days</Button>
+                <Button className="py-3 px-5 text-base font-medium bg-violet-600 hover:bg-purple-500 text-white">Free trial for 30 days</Button>
             </div>
         </div>
     </section>

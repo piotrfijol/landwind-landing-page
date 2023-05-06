@@ -10,8 +10,8 @@ export const Hero = () => {
           <h1 className="leading-none font-black text-6xl">Building digital products & brands.</h1>
           <Subtext className="my-6">Here at flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</Subtext>
           <div className="mt-10">
-              <Button className="py-3 px-5 mr-4 text-base font-medium bg-violet-600 hover:bg-violet-800 text-white">Start 30 day free trial</Button>
-              <Button className="py-3 px-5 text-base font-medium bg-white text-black border border-gray-200">Pricing & FAQ</Button>
+              <Button className="py-3 px-5 mr-4 text-base font-medium bg-violet-600 hover:bg-purple-500 text-white">Start 30 day free trial</Button>
+              <Button className="py-3 px-5 text-base font-medium bg-white hover:bg-slate-50 text-black border border-gray-200">Pricing & FAQ</Button>
           </div>
         </div>
         <div className="hidden md:block flex-1 lg:flex-none">

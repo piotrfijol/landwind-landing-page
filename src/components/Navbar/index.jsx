@@ -30,7 +30,7 @@ export const Navbar = () => {
             <div className="ml-auto order-1 lg:order-2">
                 <a className="font-semibold text-sm  hidden sm:inline" href="#">Log In</a>
                 
-                <Button className="ml-3 px-3 py-2 text-sm leading-normal bg-violet-600 hover:bg-violet-800 text-white hidden sm:inline">Get started</Button>
+                <Button className="ml-3 px-3 py-2 text-sm leading-normal bg-violet-600 hover:bg-purple-500 text-white hidden sm:inline">Get started</Button>
             </div>
         </div>
     </header>
